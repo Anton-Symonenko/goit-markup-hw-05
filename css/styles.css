@@ -516,6 +516,7 @@ ul {
 }
 
 .logo-footer {
+    display: block;
     font-family: Raleway;
     font-weight: 700;
     font-size: 18px;
@@ -597,8 +598,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .container-sbscr{
    display: flex;
-   justify-content: center;
-   align-items: center;
    gap: 24px;
 }
 
@@ -690,6 +689,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .footer-sbscr-button:focus{
     background-color: #31D0AA;
     outline: none;
+    cursor: pointer;
 }
 
 .footer-sbscr-icon {
