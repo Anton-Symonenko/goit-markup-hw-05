@@ -59,46 +59,45 @@ ul {
 /* #region header*/
 
 .page-header {
-       border-bottom: 1px solid #e7e9fc;
-       box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-       background: #fff;
-     }
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
 
-     .header-container {
-        display: flex;
-        align-items: center;
-        
-        
-     }
+.header-container {
+    display: flex;
+    align-items: center;
+          
+}
 
 .logo {
-        font-family: Raleway;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.167;
-        letter-spacing: 0.03em;
-        color:#2E2F42;
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 24px 0;
-        margin-right: 76px;
-    }
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color:#2E2F42;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .span-logo-top{
-        color: #4D5AE5;
-    }
+    color: #4D5AE5;
+}
     
 .main-nav {
-        color: #2E2F42;
-        font-family: Roboto;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        display: flex;
-        align-items: center;
-        
+    color: #2E2F42;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;    
 
-    }
+}
 
 .nav-list {
     display: flex;
@@ -119,9 +118,8 @@ ul {
 
 .studio {
     position: relative;
-
     color: #404bbf;
-     }
+}
 
 .nav-link.studio::after {
     content: "";
@@ -132,7 +130,6 @@ ul {
     height: 4px;
     background-color: #404bbf;
     width: 100%;
-    
     bottom: -1px;
     
     
@@ -149,39 +146,39 @@ ul {
 }
 
 
-
 .address {
-        font-family: Roboto;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        font-style: normal;
-        margin-left: auto;
-    }
-
-    .header-address {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-        
-    }
-    
-.address-link:hover {
-        color: #404BBF;
-    }
-.address-link:focus {
-    color: #404BBF;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal;
+    margin-left: auto;
 }
 
-    .address-link {
+.header-address {
+        display: flex;
+        align-items: center;
+        gap: 40px;       
+}
+    
+
+
+.address-link {
         color: #434455;
         text-decoration: none;
         display: block;
-        padding: 24px;
+        padding: 24px 0px;
         transition: color 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+.address-link:hover {
+        color: #404BBF;
+    }
+    
+.address-link:focus {
+        color: #404BBF;
     }
 
     /* #endregion header */
